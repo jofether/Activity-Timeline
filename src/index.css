@@ -3,8 +3,6 @@
 @tailwind utilities;
 
 :root {
-  /* 1. COLOR BUG A: Global text color changed to light gray, causing low contrast on light background */
-  /* FIX: color: #0f172a; */
   color: #d1d5db;
   background-color: #f7f8fb;
 }
