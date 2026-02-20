@@ -1,0 +1,155 @@
+{
+  "repository": "Activity Timeline",
+  "bugs": [
+    {
+      "bug_category": "Layout",
+      "bug_type": "margin",
+      "file_modified": "src/components/Container.jsx",
+      "line_number": 7,
+      "clean_code": "<div className=\"max-w-2xl mx-auto\">",
+      "buggy_code": "<div className=\"max-w-2xl\">",
+      "css_selector": ".max-w-2xl",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Color",
+      "bug_type": "bg-green-500",
+      "file_modified": "src/components/TimelineEvent.jsx",
+      "line_number": 7,
+      "clean_code": "case 'success': return 'bg-green-500 ring-green-200';",
+      "buggy_code": "case 'success': return 'bg-gray-400 ring-gray-200';",
+      "css_selector": ".bg-green-500",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Layers",
+      "bug_type": "position",
+      "file_modified": "src/components/TimelineEvent.jsx",
+      "line_number": 15,
+      "clean_code": "<li className=\"relative pb-8\">",
+      "buggy_code": "<li className=\"pb-8\">",
+      "css_selector": "li",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Layers",
+      "bug_type": "position",
+      "file_modified": "src/components/TimelineEvent.jsx",
+      "line_number": 19,
+      "clean_code": "<span className=\"absolute top-4 left-4 -ml-px h-full w-0.5 bg-gray-200\" aria-hidden=\"true\"></span>",
+      "buggy_code": "<span className=\"top-4 left-4 -ml-px h-full w-0.5 bg-gray-200\" aria-hidden=\"true\"></span>",
+      "css_selector": "span",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Layout",
+      "bug_type": "flexbox",
+      "file_modified": "src/components/TimelineEvent.jsx",
+      "line_number": 22,
+      "clean_code": "<div className=\"relative flex space-x-3\">",
+      "buggy_code": "<div className=\"relative block space-x-3\">",
+      "css_selector": ".relative",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Typo",
+      "bug_type": "ring-8",
+      "file_modified": "src/components/TimelineEvent.jsx",
+      "line_number": 27,
+      "clean_code": "<span className={`h-8 w-8 rounded-full flex items-center justify-center ring-8 ring-white ${getDotColor(event.type)}`}>",
+      "buggy_code": "<span className={`h-8 w-8 rounded-full flex items-center justify-center ringg-8 ring-white ${getDotColor(event.type)}`}>",
+      "css_selector": ".ring-8",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Spacing",
+      "bug_type": "padding-top",
+      "file_modified": "src/components/TimelineEvent.jsx",
+      "line_number": 33,
+      "clean_code": "<div className=\"min-w-0 flex-1 pt-1.5 flex justify-between space-x-4\">",
+      "buggy_code": "<div className=\"min-w-0 flex-1 flex justify-between space-x-4\">",
+      "css_selector": ".flex-1",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Spacing",
+      "bug_type": "margin-bottom",
+      "file_modified": "src/components/TimelineHeader.jsx",
+      "line_number": 5,
+      "clean_code": "<header className=\"mb-10\">",
+      "buggy_code": "<header className=\"mb-[-50px]\">",
+      "css_selector": "header",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Typo",
+      "bug_type": "text-3xl",
+      "file_modified": "src/components/TimelineHeader.jsx",
+      "line_number": 7,
+      "clean_code": "<h1 className=\"text-3xl font-bold text-gray-900\">{title}</h1>",
+      "buggy_code": "<h1 className=\"text-33xl font-bold text-gray-900\">{title}</h1>",
+      "css_selector": ".font-bold",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Color",
+      "bug_type": "color",
+      "file_modified": "src/index.css",
+      "line_number": 6,
+      "clean_code": "color: #0f172a;",
+      "buggy_code": "color: #d1d5db;",
+      "css_selector": ":root",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    }
+  ]
+}
