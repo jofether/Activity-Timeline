@@ -12,8 +12,8 @@
       "bounding_box": {
         "x": 0,
         "y": 0,
-        "width": 0,
-        "height": 0
+        "width": 1280,
+        "height": 720
       }
     },
     {
@@ -24,12 +24,7 @@
       "clean_code": "case 'success': return 'bg-green-500 ring-green-200';",
       "buggy_code": "case 'success': return 'bg-gray-400 ring-gray-200';",
       "css_selector": ".bg-green-500",
-      "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
-      }
+      "bounding_box": { "x": 0, "y": 0, "width": 1280, "height": 720 }
     },
     {
       "bug_category": "Layers",
@@ -39,12 +34,7 @@
       "clean_code": "<li className=\"relative pb-8\">",
       "buggy_code": "<li className=\"pb-8\">",
       "css_selector": "li",
-      "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
-      }
+      "bounding_box": { "x": 0, "y": 0, "width": 1280, "height": 720 }
     },
     {
       "bug_category": "Layers",
@@ -72,8 +62,8 @@
       "bounding_box": {
         "x": 0,
         "y": 0,
-        "width": 0,
-        "height": 0
+        "width": 1280,
+        "height": 720
       }
     },
     {
@@ -87,8 +77,8 @@
       "bounding_box": {
         "x": 0,
         "y": 0,
-        "width": 0,
-        "height": 0
+        "width": 1280,
+        "height": 720
       }
     },
     {
@@ -102,8 +92,8 @@
       "bounding_box": {
         "x": 0,
         "y": 0,
-        "width": 0,
-        "height": 0
+        "width": 1280,
+        "height": 720
       }
     },
     {
@@ -117,8 +107,8 @@
       "bounding_box": {
         "x": 0,
         "y": 0,
-        "width": 0,
-        "height": 0
+        "width": 1280,
+        "height": 720
       }
     },
     {
@@ -129,12 +119,7 @@
       "clean_code": "<h1 className=\"text-3xl font-bold text-gray-900\">{title}</h1>",
       "buggy_code": "<h1 className=\"text-33xl font-bold text-gray-900\">{title}</h1>",
       "css_selector": ".font-bold",
-      "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
-      }
+      "bounding_box": { "x": 0, "y": 0, "width": 1280, "height": 720 }
     },
     {
       "bug_category": "Color",
@@ -147,8 +132,8 @@
       "bounding_box": {
         "x": 0,
         "y": 0,
-        "width": 0,
-        "height": 0
+        "width": 1280,
+        "height": 720
       }
     }
   ]
