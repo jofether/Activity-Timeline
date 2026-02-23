@@ -2,6 +2,7 @@
   "repository": "Activity Timeline",
   "bugs": [
     {
+      "comment": "Bug #1 - margin",
       "bug_category": "Layout",
       "bug_type": "margin",
       "file_modified": "src/components/Container.jsx",
@@ -9,14 +10,10 @@
       "clean_code": "<div className=\"max-w-2xl mx-auto\">",
       "buggy_code": "<div className=\"max-w-2xl\">",
       "css_selector": ".max-w-2xl",
-      "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 1280,
-        "height": 720
-      }
+      "bounding_box": { "x": 16, "y": 48, "width": 672, "height": 672 }
     },
     {
+      "comment": "Bug #2 - bg-green-500",
       "bug_category": "Color",
       "bug_type": "bg-green-500",
       "file_modified": "src/components/TimelineEvent.jsx",
@@ -24,9 +21,10 @@
       "clean_code": "case 'success': return 'bg-green-500 ring-green-200';",
       "buggy_code": "case 'success': return 'bg-gray-400 ring-gray-200';",
       "css_selector": ".bg-green-500",
-      "bounding_box": { "x": 0, "y": 0, "width": 1280, "height": 720 }
+      "bounding_box": { "x": 16, "y": 70, "width": 32, "height": 32 }
     },
     {
+      "comment": "Bug #3 - position",
       "bug_category": "Layers",
       "bug_type": "position",
       "file_modified": "src/components/TimelineEvent.jsx",
@@ -34,9 +32,10 @@
       "clean_code": "<li className=\"relative pb-8\">",
       "buggy_code": "<li className=\"pb-8\">",
       "css_selector": "li",
-      "bounding_box": { "x": 0, "y": 0, "width": 1280, "height": 720 }
+      "bounding_box": { "x": 16, "y": 178, "width": 672, "height": 132 }
     },
     {
+      "comment": "Bug #4 - position",
       "bug_category": "Layers",
       "bug_type": "position",
       "file_modified": "src/components/TimelineEvent.jsx",
@@ -44,14 +43,10 @@
       "clean_code": "<span className=\"absolute top-4 left-4 -ml-px h-full w-0.5 bg-gray-200\" aria-hidden=\"true\"></span>",
       "buggy_code": "<span className=\"top-4 left-4 -ml-px h-full w-0.5 bg-gray-200\" aria-hidden=\"true\"></span>",
       "css_selector": "span",
-      "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
-      }
+      "bounding_box": { "x": 0, "y": 0, "width": 0, "height": 0 }
     },
     {
+      "comment": "Bug #5 - flexbox",
       "bug_category": "Layout",
       "bug_type": "flexbox",
       "file_modified": "src/components/TimelineEvent.jsx",
@@ -60,13 +55,14 @@
       "buggy_code": "<div className=\"relative block space-x-3\">",
       "css_selector": ".relative",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 1280,
-        "height": 720
+        "x": 16,
+        "y": 70,
+        "width": 672,
+        "height": 76
       }
     },
     {
+      "comment": "Bug #6 - ring-8",
       "bug_category": "Typo",
       "bug_type": "ring-8",
       "file_modified": "src/components/TimelineEvent.jsx",
@@ -74,14 +70,10 @@
       "clean_code": "<span className={`h-8 w-8 rounded-full flex items-center justify-center ring-8 ring-white ${getDotColor(event.type)}`}>",
       "buggy_code": "<span className={`h-8 w-8 rounded-full flex items-center justify-center ringg-8 ring-white ${getDotColor(event.type)}`}>",
       "css_selector": ".ring-8",
-      "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 1280,
-        "height": 720
-      }
+      "bounding_box": { "x": 16, "y": 70, "width": 32, "height": 32 }
     },
     {
+      "comment": "Bug #7 - padding-top",
       "bug_category": "Spacing",
       "bug_type": "padding-top",
       "file_modified": "src/components/TimelineEvent.jsx",
@@ -90,13 +82,14 @@
       "buggy_code": "<div className=\"min-w-0 flex-1 flex justify-between space-x-4\">",
       "css_selector": ".flex-1",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 1280,
-        "height": 720
+        "x": 28,
+        "y": 102,
+        "width": 660,
+        "height": 44
       }
     },
     {
+      "comment": "Bug #8 - margin-bottom",
       "bug_category": "Spacing",
       "bug_type": "margin-bottom",
       "file_modified": "src/components/TimelineHeader.jsx",
@@ -104,14 +97,10 @@
       "clean_code": "<header className=\"mb-10\">",
       "buggy_code": "<header className=\"mb-[-50px]\">",
       "css_selector": "header",
-      "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 1280,
-        "height": 720
-      }
+      "bounding_box": { "x": 16, "y": 48, "width": 672, "height": 48 }
     },
     {
+      "comment": "Bug #9 - text-3xl",
       "bug_category": "Typo",
       "bug_type": "text-3xl",
       "file_modified": "src/components/TimelineHeader.jsx",
@@ -119,9 +108,10 @@
       "clean_code": "<h1 className=\"text-3xl font-bold text-gray-900\">{title}</h1>",
       "buggy_code": "<h1 className=\"text-33xl font-bold text-gray-900\">{title}</h1>",
       "css_selector": ".font-bold",
-      "bounding_box": { "x": 0, "y": 0, "width": 1280, "height": 720 }
+      "bounding_box": { "x": 16, "y": 48, "width": 672, "height": 24 }
     },
     {
+      "comment": "Bug #10 - color",
       "bug_category": "Color",
       "bug_type": "color",
       "file_modified": "src/index.css",
@@ -129,12 +119,7 @@
       "clean_code": "color: #0f172a;",
       "buggy_code": "color: #d1d5db;",
       "css_selector": ":root",
-      "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 1280,
-        "height": 720
-      }
+      "bounding_box": { "x": 0, "y": 0, "width": 1280, "height": 720 }
     }
   ]
 }
