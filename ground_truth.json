@@ -10,7 +10,7 @@
       "clean_code": "<div className=\"max-w-2xl mx-auto\">",
       "buggy_code": "<div className=\"max-w-2xl\">",
       "css_selector": ".max-w-2xl",
-      "bounding_box": { "x": 16, "y": 48, "width": 672, "height": 672 }
+      "bounding_box": { "x": 0, "y": 48, "width": 1280, "height": 672 }
     },
     {
       "comment": "Bug #2 - bg-green-500",
@@ -20,7 +20,7 @@
       "line_number": 7,
       "clean_code": "case 'success': return 'bg-green-500 ring-green-200';",
       "buggy_code": "case 'success': return 'bg-gray-400 ring-gray-200';",
-      "css_selector": ".bg-green-500",
+      "css_selector": "li:first-child .h-8.w-8.rounded-full",
       "bounding_box": { "x": 16, "y": 70, "width": 32, "height": 32 }
     },
     {
@@ -31,7 +31,7 @@
       "line_number": 15,
       "clean_code": "<li className=\"relative pb-8\">",
       "buggy_code": "<li className=\"pb-8\">",
-      "css_selector": "li",
+      "css_selector": "li:nth-child(2).pb-8",
       "bounding_box": { "x": 16, "y": 178, "width": 672, "height": 132 }
     },
     {
@@ -42,8 +42,8 @@
       "line_number": 19,
       "clean_code": "<span className=\"absolute top-4 left-4 -ml-px h-full w-0.5 bg-gray-200\" aria-hidden=\"true\"></span>",
       "buggy_code": "<span className=\"top-4 left-4 -ml-px h-full w-0.5 bg-gray-200\" aria-hidden=\"true\"></span>",
-      "css_selector": "span",
-      "bounding_box": { "x": 0, "y": 0, "width": 0, "height": 0 }
+      "css_selector": "li:first-child span.bg-gray-200",
+      "bounding_box": { "x": 28, "y": 70, "width": 24, "height": 100 }
     },
     {
       "comment": "Bug #5 - flexbox",
@@ -53,7 +53,7 @@
       "line_number": 22,
       "clean_code": "<div className=\"relative flex space-x-3\">",
       "buggy_code": "<div className=\"relative block space-x-3\">",
-      "css_selector": ".relative",
+      "css_selector": "li:first-child .relative.space-x-3",
       "bounding_box": {
         "x": 16,
         "y": 70,
@@ -69,8 +69,8 @@
       "line_number": 27,
       "clean_code": "<span className={`h-8 w-8 rounded-full flex items-center justify-center ring-8 ring-white ${getDotColor(event.type)}`}>",
       "buggy_code": "<span className={`h-8 w-8 rounded-full flex items-center justify-center ringg-8 ring-white ${getDotColor(event.type)}`}>",
-      "css_selector": ".ring-8",
-      "bounding_box": { "x": 16, "y": 70, "width": 32, "height": 32 }
+      "css_selector": "li:first-child .h-8.w-8.rounded-full",
+      "bounding_box": { "x": 8, "y": 62, "width": 48, "height": 48 }
     },
     {
       "comment": "Bug #7 - padding-top",
@@ -80,7 +80,7 @@
       "line_number": 33,
       "clean_code": "<div className=\"min-w-0 flex-1 pt-1.5 flex justify-between space-x-4\">",
       "buggy_code": "<div className=\"min-w-0 flex-1 flex justify-between space-x-4\">",
-      "css_selector": ".flex-1",
+      "css_selector": "li:first-child .flex-1.min-w-0",
       "bounding_box": {
         "x": 28,
         "y": 102,
@@ -97,7 +97,7 @@
       "clean_code": "<header className=\"mb-10\">",
       "buggy_code": "<header className=\"mb-[-50px]\">",
       "css_selector": "header",
-      "bounding_box": { "x": 16, "y": 48, "width": 672, "height": 48 }
+      "bounding_box": { "x": 16, "y": 48, "width": 672, "height": 150 }
     },
     {
       "comment": "Bug #9 - text-3xl",
@@ -107,8 +107,8 @@
       "line_number": 7,
       "clean_code": "<h1 className=\"text-3xl font-bold text-gray-900\">{title}</h1>",
       "buggy_code": "<h1 className=\"text-33xl font-bold text-gray-900\">{title}</h1>",
-      "css_selector": ".font-bold",
-      "bounding_box": { "x": 16, "y": 48, "width": 672, "height": 24 }
+      "css_selector": "header h1",
+      "bounding_box": { "x": 16, "y": 48, "width": 672, "height": 60 }
     },
     {
       "comment": "Bug #10 - color",
@@ -118,7 +118,7 @@
       "line_number": 6,
       "clean_code": "color: #0f172a;",
       "buggy_code": "color: #d1d5db;",
-      "css_selector": ":root",
+      "css_selector": "body",
       "bounding_box": { "x": 0, "y": 0, "width": 1280, "height": 720 }
     }
   ]
