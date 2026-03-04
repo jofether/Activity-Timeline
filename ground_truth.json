@@ -9,7 +9,7 @@
       "line_number": 7,
       "clean_code": "<div className=\"max-w-2xl mx-auto\">",
       "buggy_code": "<div className=\"max-w-2xl\">",
-      "css_selector": ".max-w-2xl",
+      "css_selector": ".max-w-2xl.mx-auto",
       "bounding_box": { "x": 0, "y": 48, "width": 1280, "height": 672 }
     },
     {
@@ -96,7 +96,7 @@
       "line_number": 5,
       "clean_code": "<header className=\"mb-10\">",
       "buggy_code": "<header className=\"mb-[-50px]\">",
-      "css_selector": "header",
+      "css_selector": "header.mb-10",
       "bounding_box": { "x": 16, "y": 48, "width": 672, "height": 150 }
     },
     {
