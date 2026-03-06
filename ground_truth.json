@@ -10,7 +10,7 @@
       "line_number": 7,
       "neg_code": "<div className=\"max-w-2xl mx-auto\">",
       "pos_code": "<div className=\"max-w-2xl\">",
-      "css_selector": ".max-w-2xl.mx-auto",
+      "css_selector": ".max-w-2xl",
       "bounding_box": { "x": 0, "y": 48, "width": 1280, "height": 672 }
     },
     {
@@ -104,7 +104,7 @@
       "line_number": 5,
       "neg_code": "<header className=\"mb-10\">",
       "pos_code": "<header className=\"mb-[-50px]\">",
-      "css_selector": "header.mb-10",
+      "css_selector": "header",
       "bounding_box": { "x": 16, "y": 48, "width": 672, "height": 150 }
     },
     {
